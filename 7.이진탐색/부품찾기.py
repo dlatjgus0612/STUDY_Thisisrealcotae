@@ -43,3 +43,16 @@ for i in x:
 #계수 정렬
 #특정 수가 한번이라도 등장했는지를 검사하면됨 
 #이빠이 큰 리스트 만들어놓고 인덱스별로 확인?
+for i in x:
+    if array[i]==1: #존재하는지
+        print('yes', end=' ')
+    else: 
+        print('no',end=' ')
+
+#집합 자료형
+for i in x:
+    if i in array:
+        print('yes',end=' ')
+    else:
+        print('no',end=' ')
+        
