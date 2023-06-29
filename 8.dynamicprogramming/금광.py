@@ -14,8 +14,8 @@ for tc in range(int(input())):
         index += m 
 
     #dynamic programming
-    for j in range(1, m):
-        for i in range(n):
+    for j in range(1, m): #열
+        for i in range(n): #행
             # 왼쪽 위에서 오는 경우
             if i == 0: left_up = 0
             else: left_up = dp[i-1][j-1]
